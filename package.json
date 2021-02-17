@@ -1,0 +1,20 @@
+{
+  "name": "textwrite",
+  "version": "1.0.0",
+  "description": "textwrite, reimagined in javascript",
+  "main": "tw.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node tw.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiete/storytime-node.git"
+  },
+  "author": "kaiete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaiete/storytime-node/issues"
+  },
+  "homepage": "https://github.com/kaiete/storytime-node#readme"
+}
