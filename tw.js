@@ -6,8 +6,7 @@ var textwrite = {
 
 const hostname = '127.0.0.1'
 const port = portToHost;
-    
-    function addToFile() {
+function addToFile() {
       var text_to_add = prompt("Please enter some text to add to the file (it will appear on a new line)")
       fs.appendFile('textwrite.tw', "<br>" + text_to_add, function (err) {
   if (err) throw err;

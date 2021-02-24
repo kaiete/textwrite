@@ -28,10 +28,14 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`TextWrite server running at http://${hostname}:${port}/`);
+  console.log(`Server completed test | port ${port} | hostname ${hostname}`);
   server.close()
 });
 },
 }
-textwrite.makeserver(1560)
+console.time("server_time")
+textwrite.makeserver(1280)
 textwrite.makeserver(7650)
+console.log("Closing servers")
+console.timeEnd("server_time")
+console.log("Done")
