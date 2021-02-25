@@ -15,6 +15,6 @@ Once you've run __npm start__, it will create a textwrite server at 127.0.0.1:15
 
 You'll need Python.
 
-Just download into a folder, **cd** in the terminal to that folder, then run **python tw.py**
+Just download into a folder, **cd** in the terminal to that folder, then run **python test.py**
 
 It will show contents of textwrite.tw, in plain text format. No HTML.
