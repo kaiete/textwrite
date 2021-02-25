@@ -18,3 +18,5 @@ You'll need Python.
 Just download into a folder, **cd** in the terminal to that folder, then run **python test.py**
 
 It will show contents of textwrite.tw, in plain text format. No HTML.
+
+Line breaks are observed.
