@@ -1,1 +1,6 @@
-hello i am a test
+<div style="font-family: Ubuntu, Helvetica, sans-serif;" spellcheck>
+<h1>Hello!</h1>
+<p>You can edit me by changing <b>textwrite.tw</b> in your <b>textwrite</b> directory.</p>
+<p style="align-self: center; color: gray; font-style: italic; font-family: Ubuntu, Helvetica, sans-serif;">Psst! You can also use CSS.</p>
+<button onclick="alert('You can even use JS too! \nCool, huh?')">Click me</button>
+</div>
