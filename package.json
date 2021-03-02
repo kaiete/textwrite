@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaiete/storytime-node.git"
+    "url": "git+https://github.com/kaiete/textwrite.git"
   },
   "author": "kaiete",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaiete/storytime-node/issues"
+    "url": "https://github.com/kaiete/textwrite/issues"
   },
-  "homepage": "https://github.com/kaiete/storytime-node#readme",
+  "homepage": "https://github.com/kaiete/textwrite#readme",
   "dependencies": {},
   "devDependencies": {}
 }
