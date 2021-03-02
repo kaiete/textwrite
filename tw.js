@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
   res.write('<h1 style="font-family: Courier;">TextWrite server</h1>');
   res.write(`<head><title>TextWrite</title></head>`)
-  res.write(`<p style="font-family: Courier;">TextWrite servers don't do much yet, you can only view files.<br>The file has to be in the same place as the server, and must be <b>textwrite.tw</b>.</p><br><button onclick='addToFile()'>Add to file textwrite.tw</button>`)
+  res.write(`<p style="font-family: Courier;">TextWrite servers don't do much yet, you can only view files.<br>The file has to be in the same place as the server, and must be <b>textwrite.tw</b>.</p>`)
     fs.readFile('textwrite.tw', function(err, data) {
     res.write('<p>' + data + '</p>');
     return res.end();
