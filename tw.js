@@ -32,4 +32,3 @@ server.listen(port, hostname, () => {
 },
 }
 textwrite.makeserver(1560)
-textwrite.makeserver(443)
