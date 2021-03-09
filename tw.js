@@ -6,13 +6,6 @@ var textwrite = {
 
 const hostname = '127.0.0.1'
 const port = portToHost;
-function addToFile() {
-      var text_to_add = prompt("Please enter some text to add to the file (it will appear on a new line)")
-      fs.appendFile('textwrite.tw', "<br>" + text_to_add, function (err) {
-  if (err) throw err;
-  console.log('Saved!');
-});
-    }
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -27,7 +20,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`TextWrite server running at http://${hostname}:${port}/`);
+  console.log(`TextWrite server running at http://${hostname}:${port}/, visit in your browser.`);
 });
 },
 }
