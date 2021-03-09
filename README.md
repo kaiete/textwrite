@@ -9,4 +9,4 @@ Just download into a folder, **cd** in the terminal to that folder, then run **n
 
 #### What does it do?
 
-Once you've run __npm start__, it will create a textwrite server at 127.0.0.1:1560, and one at 127.0.0.1:7650 - both exactly the same. You can then add whatever you want to your textwrite.tw file, and it will show up at the two above IPs *automatically*. The textwrite.tw file is HTML, so line breaks can be made using \<br>.
+Once you've run __npm start__, it will create a textwrite server at 127.0.0.1:1560. You can then add whatever you want to your textwrite.tw file, and it will show up at the two above IPs *automatically*. The textwrite.tw file is HTML, so line breaks can be made using \<br>.
